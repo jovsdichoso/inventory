@@ -1,0 +1,32 @@
+th {
+    width: 155px;
+    padding: 8px;
+    background: #FFB84C;
+    color: #49108B;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+form input[type="submit"] {
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+form input[name="update_item"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+}
+
+form input[name="remove_item"] {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+}
+.dang{
+    font-size: 10px;
+}
